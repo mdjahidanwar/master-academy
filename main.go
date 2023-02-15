@@ -11,8 +11,15 @@ func main() {
 	// fmt.Println("my age is: ",age)
 	//fmt.Printf("%d", 'ঔ')
 	add(5,6)
+	numToChar(65)
 }
 
 func add(x int, y int) {
 	fmt.Println(x+y)
+
 } 
+
+
+func numToChar(x int){
+	fmt.Printf("%c", x)
+}
