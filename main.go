@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	//"runtime/trace"
+)
 
 func main() {
 
@@ -19,8 +22,15 @@ func main() {
 	// var name = "jahid"
 	// fmt.Println(name)
 
-	var char rune 
-	fmt.Println (char)
+	// var char rune 
+	// fmt.Println (char)
+	var isFound bool
+	fmt.Println(isFound)
+	fmt.Println(true && true)
+	fmt.Println(true && false)
+	fmt.Println(true || true)
+	fmt.Println(true || false)
+    fmt.Println(!true)
 
 	
 
