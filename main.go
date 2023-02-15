@@ -9,5 +9,5 @@ func main() {
 	// fmt.Println("git add local to remote")
 	// fmt.Println("my name is: ",name)
 	// fmt.Println("my age is: ",age)
-	fmt.Printf("%x", "ঔ")
+	fmt.Printf("%d", 'ঔ')
 }
