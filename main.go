@@ -12,6 +12,9 @@ func main() {
 	//fmt.Printf("%d", 'ঔ')
 	add(5,6)
 	numToChar(65)
+	var name = "jahid"
+	var name = "anwar"
+	fmt.Println(name)
 }
 
 func add(x int, y int) {
