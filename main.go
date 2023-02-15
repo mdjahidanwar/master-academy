@@ -13,7 +13,6 @@ func main() {
 	add(5,6)
 	numToChar(65)
 	var name = "jahid"
-	var name = "anwar"
 	fmt.Println(name)
 }
 
@@ -24,5 +23,5 @@ func add(x int, y int) {
 
 
 func numToChar(x int){
-	fmt.Printf("%c", x)
+	fmt.Printf("%c\n", x)
 }
